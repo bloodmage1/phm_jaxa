@@ -18,11 +18,11 @@
 6. 구분 – 4와 같은 방법으로 이물질투입 AutoEncoder 모델과 균형이상 AutoEncoder 모델에도 재구성손실값의 변화율을 계산. 그 값이 감소하는 모델에서 이상 유형 구분.
 
 
-<img src="https://github.com/bloodmage1/PHM_AI/ppt/SUNSEODO.PNG" />
+<img src="https://github.com/bloodmage1/phm_jaxa/blob/main/ppt/SUNSEODO.png" />
 
 
 ## 4. 사용 모델
-[https://github.com/bloodmage1/PHM_AI/ppt/SUNSEODO.PNG] 제 AutoEncoder 모델을 참고해서 만들었습니다.
+[https://github.com/bloodmage1/PHM_sound/tree/main/AutoEncoder] 제 AutoEncoder 모델을 참고해서 만들었습니다.
 
 ## 5. 전처리
 
@@ -47,6 +47,6 @@ def ae_with_fft(df, frequency):
 
 ## 6. 결과
 
-<img src="https://github.com/bloodmage1/PHM_AI/ppt/result_.PNG" />
+<img src="https://github.com/bloodmage1/phm_jaxa/blob/main/ppt/result_.png" />
 
 그림을 통해 정상파일과 비교하여 error 파일이 다음과 같이 차이가 나는 것을 알 수 있습니다.
